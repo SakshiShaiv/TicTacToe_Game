@@ -1,0 +1,119 @@
+ #hdng{
+    text-align: center;
+    text-decoration: underline;
+    color:aliceblue;
+}
+#body{
+    background-color: rgba(9, 56, 70, 0.99);
+}
+#cntner{
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+}
+#box{
+   height:60vmin;
+   width:60vmin;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+    align-items: center;
+}
+.btns{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0 0 0 0.1);
+    color: brown;
+    background-color: antiquewhite;
+    font-size: 8vmin;
+}
+#rg{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color:aliceblue;
+}
+.outer{
+    
+    
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url("firecracker.gif");
+    background-size: contain;
+    margin-bottom: 50%;
+
+}
+
+.win{
+    height:35vmin;
+    width:75vmin;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    color:beige;
+    font-size: 2rem;
+    
+  
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("tic.jpg");
+    
+
+  
+}
+#id4{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+} 
+.rc{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.hide{
+    display:none;
+}
+  
+#ng{
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color:aliceblue;
+    animation: bounce 3s infinite;
+
+   
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+      background-color: #081208; 
+    }
+    25% {
+      background-color: #373434; 
+    }
+    50% {
+      transform: translateY(-10px);
+      background-color: #0d0741; 
+    }
+    75% {
+      background-color: #22201f; 
+    }
+  }
+  
